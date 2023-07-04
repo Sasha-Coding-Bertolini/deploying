@@ -15,7 +15,7 @@ export const RecipesPage = () => {
         </>
       ) : (
         <>
-          <Heading textAlign="center" m={8} fontSize={"5xl"} color={"blue.200"}>
+          <Heading textAlign="center" m={8} fontSize={"5xl"} color={"red.200"}>
             {greeting}
           </Heading>
           <RecipeSearch onClick={setUserRecipe} />
